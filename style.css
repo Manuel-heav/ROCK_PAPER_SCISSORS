@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #006E90;
+}
+
+img{
+    width: 120px;
+    height: 100px;
+}
+
+.game__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#gameDiv{
+    border: 3px solid;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    width: 40%;
+    background-color: #fff;
+    text-align: center;
+}
+
+#playerText{
+    color: blue;
+}
+
+#computerText{
+    color: red;
+}
